@@ -58,18 +58,22 @@ body {
 header {
   height: 50px;
   margin: 20px 20px 0;
+  border-bottom: 1px solid #ccc;
 }
 
-#posts-button, #about-button {
-  float: left;
-  margin: 0 20px;
-  cursor: pointer;
+#name-callout {
+    float: left;
+    margin: 0 30px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-
-
-#posts-button.active, #about-button.active {
-  text-decoration: underline;
+#articles-header {
+    text-decoration: underline;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 0;
 }
 
 .post {
